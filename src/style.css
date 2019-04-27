@@ -1,0 +1,193 @@
+h1,
+p {
+  font-family: Lato;
+  font-size: 32px;
+}
+h2 {
+  color: rgb(75, 156, 211);
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+}
+p1 {
+  color: rgb(0, 180, 0);
+}
+p2 {
+  color: rgb(238, 197, 80);
+}
+p3 {
+  color: rgb(47, 140, 243);
+}
+hr {
+  border: 10px solid rgb(75, 156, 211);
+  border-radius: 5px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(75, 156, 211);
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 28px 32px;
+  text-decoration: none;
+  font-size: 32px;
+}
+.topText {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 28px 32px;
+  text-decoration: none;
+  font-size: 32px;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+body {
+  background-color: rgb(184, 220, 243);
+}
+.rightDiv {
+  text-align: right;
+}
+.center1 {
+  margin: auto;
+  width: 15%;
+  padding: 10px;
+}
+.center2 {
+  margin: auto;
+  width: 40%;
+  padding: 10px;
+}
+.gamebtn1 {
+  background-color: rgb(69, 218, 150);
+  color: black;
+  padding: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.gamebtn2 {
+  background-color: rgb(238, 197, 80);
+  color: black;
+  padding: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.gamebtn3 {
+  background-color: rgb(47, 140, 243);
+  color: black;
+  padding: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.gamebtn4 {
+  background-color: rgb(69, 218, 150);
+  color: black;
+  padding: 50px;
+  border: none;
+  cursor: pointer;
+}
+
+.gamebtn4S {
+  background-color: rgb(69, 218, 150);
+  color: black;
+  padding: 40px;
+  border: none;
+  cursor: pointer;
+  border-style: dashed;
+  border-width: 10px;
+}
+
+.gamebtn1S {
+  background-color: rgb(69, 218, 150);
+  color: black;
+  padding: 40px;
+  border: none;
+  cursor: pointer;
+  border-style: dashed;
+  border-width: 10px;
+}
+
+.gamebtn2S {
+  background-color: rgb(238, 197, 80);
+  color: black;
+  padding: 40px;
+  border: none;
+  cursor: pointer;
+  border-style: dashed;
+  border-width: 10px;
+}
+.gamebtn3S {
+  background-color: rgb(47, 140, 243);
+  color: black;
+  padding: 40px;
+  border: none;
+  cursor: pointer;
+  border-style: dashed;
+  border-width: 10px;
+}
+
+.dropbtn {
+  background-color: #3498db;
+  color: white;
+  padding: 50px;
+  font-size: 32px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: rgb(75, 156, 211);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
